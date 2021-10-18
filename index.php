@@ -25,6 +25,6 @@ $paragrafo= "Siddhartha Gautama (noto anche come Gautama Buddha, il Buddha stori
 <body>
     <h1>CENNI BIOGRAFICI</h1>
     <p><?php echo $paragrafo; ?></p>
-    <h2>La lunghezza di questo paragrafo è <?php ?></h2>
+    <h2>La lunghezza di questo paragrafo è di <?php echo strlen($paragrafo); ?> caratteri</h2>
 </body>
 </html>
